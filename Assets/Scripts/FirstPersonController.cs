@@ -226,7 +226,7 @@ namespace StarterAssets
 			// set target speed based on move speed, sprint speed and if sprint is pressed
 			float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
 			Vector3 velocity = _controller.velocity;
-			Vector3 move = _input.move;
+			Vector2 move = _input.move;
 			
 			if (Grounded) {
 				_lastGroundedVelocity = _controller.velocity;
@@ -273,7 +273,7 @@ namespace StarterAssets
 
 			// note: Vector2's != operator uses approximation so is not floating point error prone, and is cheaper than magnitude
 			// if there is a move input rotate player when the player is moving
-			if (_input.move != Vector2.zero)
+			if (move != Vector2.zero)
 			{
 				// move
 				inputDirection = transform.right * move.x + transform.forward * move.y;
