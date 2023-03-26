@@ -368,27 +368,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: shotgun_sprite_sheet_27
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 471
-        height: 429
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad3f9b18b5e8e4078832c28d28416995
-      internalID: -876495717
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
