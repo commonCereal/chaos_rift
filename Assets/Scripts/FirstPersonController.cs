@@ -164,13 +164,13 @@ namespace StarterAssets
 			print("Attack!");
 			if (!IsAnimationPlaying("shoot_shotgun"))
 			{
-				_weaponAnimator.SetTrigger("PlayAnimation");
+				_weaponAnimator.SetTrigger("FireWeapon");
 			}
 		}
 
 		private void StopAttack()
 		{
-			_weaponAnimator.ResetTrigger("PlayAnimation");
+			_weaponAnimator.ResetTrigger("FireWeapon");
 		}
 
 		private void GroundedCheck()

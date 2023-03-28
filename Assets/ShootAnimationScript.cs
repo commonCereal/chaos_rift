@@ -17,7 +17,7 @@ public class ShootAnimationScript : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            animator.SetTrigger("PlayAnimation");
+            animator.SetTrigger("FireWeapon");
         }
     }
 }
