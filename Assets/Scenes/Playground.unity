@@ -1700,6 +1700,11 @@ PrefabInstance:
       propertyPath: gunFiringSound
       value: 
       objectReference: {fileID: 8300000, guid: 293bb3a5ad932244aaf5c2c516b8fdaa, type: 3}
+    - target: {fileID: 8616685848737228371, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
+        type: 3}
+      propertyPath: gunReloadSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 2074ab5ab9d8fc64e9ece499d7ec054f, type: 3}
     - target: {fileID: 8616685848737228372, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
         type: 3}
       propertyPath: m_Name
