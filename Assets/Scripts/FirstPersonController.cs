@@ -65,6 +65,12 @@ namespace StarterAssets
 		public float TopClamp = 90.0f;
 		[Tooltip("How far in degrees can you move the camera down")]
 		public float BottomClamp = -90.0f;
+		
+		[Header("Sound")]
+		[Tooltip("Sound gun shot should make")]
+		public AudioClip gunFiringSound;
+		[Tooltip("Sound gun reload should make")]
+		public AudioClip gunReloadSound;
 
 		// cinemachine
 		private float _cinemachineTargetPitch;
@@ -89,6 +95,8 @@ namespace StarterAssets
 		private StarterAssetsInputs _input;
 		private GameObject _mainCamera;
 		private Animator _weaponAnimator;
+		private AudioSource audioSource;
+		private bool didReload = false;
 
 		private const float _threshold = 0.01f;
 
@@ -116,6 +124,11 @@ namespace StarterAssets
 		private void Start()
 		{
 			_controller = GetComponent<CharacterController>();
+			audioSource = GetComponent<AudioSource>();
+			if (audioSource == null) {
+				gameObject.AddComponent<AudioSource>();
+				audioSource = GetComponent<AudioSource>();
+			}
 			_input = GetComponent<StarterAssetsInputs>();
 			_input.OnAttackTriggered += Attack;
 			
@@ -148,6 +161,7 @@ namespace StarterAssets
 			JumpAndGravity();
 			GroundedCheck();
 			CrouchedCheck();
+			PlayReload();
 			Move();
 		}
 
@@ -169,6 +183,17 @@ namespace StarterAssets
 			{
 				_weaponAnimator.SetTrigger("FireWeapon");
 				ProcessShot();
+				audioSource.PlayOneShot(gunFiringSound);
+			}
+		}
+
+		private void PlayReload() {
+			if (IsAnimationPlaying("shotgun_reload") && !didReload) {
+				audioSource.PlayOneShot(gunReloadSound);
+				didReload = true;
+			}
+			if (!IsAnimationPlaying("shotgun_reload")) {
+				didReload = false;
 			}
 		}
 
