@@ -53,7 +53,10 @@ namespace StarterAssets
 		[Header("Offense")]
 		[Tooltip("Whether the player is attacking or not.")]
 		public bool Attacking;
-		
+		[Tooltip("The mark a bullet will leave on objects")]
+
+		public GameObject BulletHole;
+
 
 		[Header("Cinemachine")]
 		[Tooltip("The follow target set in the Cinemachine Virtual Camera that the camera will follow")]
@@ -162,15 +165,27 @@ namespace StarterAssets
 		private void Attack()
 		{
 			print("Attack!");
-			if (!IsAnimationPlaying("shoot_shotgun"))
+			if (!IsAnimationPlaying("shotgun_fire") && !IsAnimationPlaying("shotgun_reload"))
 			{
 				_weaponAnimator.SetTrigger("FireWeapon");
+				ProcessShot();
 			}
 		}
 
 		private void StopAttack()
 		{
 			_weaponAnimator.ResetTrigger("FireWeapon");
+		}
+		
+		private void ProcessShot() {
+			Ray ray = Camera.main.ScreenPointToRay(new Vector2(Screen.width / 2, Screen.height / 2));
+			RaycastHit Hit;
+			if (Physics.Raycast(ray, out Hit, float.PositiveInfinity)) {
+				Instantiate(
+					BulletHole,
+					Hit.point + (Hit.normal * .01f),
+					Quaternion.FromToRotation(Vector3.up, Hit.normal));
+			}
 		}
 
 		private void GroundedCheck()
