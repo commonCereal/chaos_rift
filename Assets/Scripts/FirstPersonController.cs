@@ -1,4 +1,5 @@
-﻿using Unity.VisualScripting;
+﻿using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 using UnityEngine.InputSystem;
@@ -54,9 +55,12 @@ namespace StarterAssets
 		[Tooltip("Whether the player is attacking or not.")]
 		public bool Attacking;
 		[Tooltip("The mark a bullet will leave on objects")]
-
 		public GameObject BulletHole;
+		
+		[Tooltip("How much ammo the player has")]
+		public int ammoCount = 8;
 
+		[SerializeField] private TextMeshProUGUI ammoCountText;
 
 		[Header("Cinemachine")]
 		[Tooltip("The follow target set in the Cinemachine Virtual Camera that the camera will follow")]
@@ -71,6 +75,9 @@ namespace StarterAssets
 		public AudioClip gunFiringSound;
 		[Tooltip("Sound gun reload should make")]
 		public AudioClip gunReloadSound;
+		[Tooltip("Sound gun empty should make")]
+		public AudioClip gunEmptySound;
+		
 
 		// cinemachine
 		private float _cinemachineTargetPitch;
@@ -123,6 +130,7 @@ namespace StarterAssets
 
 		private void Start()
 		{
+			ammoCountText.text = "Ammo: " + ammoCount;
 			_controller = GetComponent<CharacterController>();
 			audioSource = GetComponent<AudioSource>();
 			if (audioSource == null) {
@@ -176,14 +184,25 @@ namespace StarterAssets
 			return stateInfo.IsName(stateName) && stateInfo.normalizedTime < 1.0f;
 		}
 
+		public void OnItemPickUp() {
+			ammoCount += 10;
+			ammoCountText.text = "Ammo: " + ammoCount;
+		}
+
 		private void Attack()
 		{
 			print("Attack!");
 			if (!IsAnimationPlaying("shotgun_fire") && !IsAnimationPlaying("shotgun_reload"))
 			{
-				_weaponAnimator.SetTrigger("FireWeapon");
-				ProcessShot();
-				audioSource.PlayOneShot(gunFiringSound);
+				if (ammoCount > 0) {
+					_weaponAnimator.SetTrigger("FireWeapon");
+					ProcessShot();
+					audioSource.PlayOneShot(gunFiringSound);
+					ammoCount--;
+					ammoCountText.text = "Ammo: " + ammoCount;
+				} else {
+					audioSource.PlayOneShot(gunEmptySound);
+				}
 			}
 		}
 
@@ -203,9 +222,12 @@ namespace StarterAssets
 		}
 		
 		private void ProcessShot() {
+			int layerMask = 1 << LayerMask.NameToLayer("Items");
+			layerMask = ~layerMask;
+			
 			Ray ray = Camera.main.ScreenPointToRay(new Vector2(Screen.width / 2, Screen.height / 2));
 			RaycastHit Hit;
-			if (Physics.Raycast(ray, out Hit, float.PositiveInfinity)) {
+			if (Physics.Raycast(ray, out Hit, float.PositiveInfinity, layerMask)) {
 				Instantiate(
 					BulletHole,
 					Hit.point + (Hit.normal * .01f),

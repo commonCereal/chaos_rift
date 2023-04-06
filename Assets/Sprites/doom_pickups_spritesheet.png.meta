@@ -1,0 +1,1674 @@
+fileFormatVersion: 2
+guid: 325de8e8963062c45ac4bb6ad2ae564e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 190
+        width: 62
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340a28e4d26cd504c82d5a4fdf1cc61f
+      internalID: -1614101877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 202
+        width: 63
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e1720c674cdff42b6c6d801ab70d58
+      internalID: -1280476343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 200
+        width: 54
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c447c634925377c4d9d7fa605587d076
+      internalID: -1201680087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 198
+        width: 54
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8adbfae6d4a0349ac3394a55e12dd8
+      internalID: 1469835000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 198
+        width: 62
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8aae17d5c9b85b4b86cb6953d2aaf45
+      internalID: -321670299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 198
+        width: 54
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd961b47b3d2ef3478cc5564c1657b4b
+      internalID: -427648992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 178
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3430ee50cda1a584d9ae8774f62775f6
+      internalID: 1825144085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 152
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d3f09f2e9e45a40b50115413f393c7
+      internalID: 1865972396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 147
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c449d1d962310043abd255f9351d6da
+      internalID: -1100742399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 151
+        width: 44
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a787b8b07757aeb44a00f21d6aac5f46
+      internalID: 1289569351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 136
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057934723816d664d81907b8c486a9b4
+      internalID: 1006826878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 142
+        width: 54
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13af325787030e4f826313eb6cca7d8
+      internalID: -1879064053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 151
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f264960db2ecc441944295e19b64bf9
+      internalID: 667377912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 142
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b21e9ec2e17c24a9b76b69f51c83b4
+      internalID: 712992293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 134
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7b8383d6c46b9488ff1e2f4a6893e2
+      internalID: -446550085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 101
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853edb10f1d707342ba7bb6c377cc23d
+      internalID: -1604074618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 101
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8314726e321b5db479dc7d41b1395778
+      internalID: -1243009645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 101
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf5d4c4387114a499d48d8cd024331e
+      internalID: -139167753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 101
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544bbc534e527484bae33c7e2f7a58a1
+      internalID: 1346958064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 104
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbea23671926e154da5a06f954af9428
+      internalID: 1580604218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 104
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102b7398f9a62e94281909312cf19d4a
+      internalID: -1190954614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 104
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b73075fa3ecab4e8ed1f256f99d08e
+      internalID: 686765573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 104
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68297ed67640d224fbbc4afb729bae8e
+      internalID: -1664617851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 104
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fac80cc11e628d49a51be301047821d
+      internalID: -198712787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 104
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6421b833520c84295e7ac69f4e3bc0
+      internalID: -99714671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 104
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e5a524332485a49ae2bee7d931b67d
+      internalID: 1368248790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 100
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdadaa1f9fcd28242826477f431ef8fc
+      internalID: -1356065144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 100
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04819c475a05c324bb99fe2435b7c71b
+      internalID: -1581816191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 100
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9789a618ac765941a12d7dad291339e
+      internalID: -1919156117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 102
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61590912cb75ec429772117aff869b0
+      internalID: -432012560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 102
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19aac846753563f4ba1e29c3e7749a77
+      internalID: -704530581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 102
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6e3425e4d811b4ba4def3ee5bae897
+      internalID: -1151919080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 102
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229c6ac2b2818434b9b969bb59783d95
+      internalID: -1257423589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 94
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b0d63d32aec474baa0c0f6d959f832
+      internalID: -1745526595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 94
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5519e2d3687c9f40a9dd04a05a8699c
+      internalID: -1867141184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 94
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46650f7430576864c936fdd300ed9190
+      internalID: -1486102709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 94
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a270a28720e15d4fa69fa30ccae94e6
+      internalID: 350144030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 94
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7f2b5cd1693074e96048bfe3aed9ea
+      internalID: 423429713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 94
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc3f24aa119bd94f82df87838a5a0d4
+      internalID: 2146292631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 94
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cbc1985e400b644969efbaa0b24793
+      internalID: 1294638916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 94
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ca0592538caf149a7017454a0d48dc
+      internalID: -1714653179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 32
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5c790bd8dcf5d4c994d9eeef7810eb
+      internalID: 2019571468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 54
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9616d0dcdfffca3449191d2f46b81da7
+      internalID: -1167528056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 54
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8036a038723229e4794ae9bd9db6f6a4
+      internalID: -1726415139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 54
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce616a0f20d7f44f8e878362ef3f807
+      internalID: -232728429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 54
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776881ae97f60524795e6d42b65ddd9b
+      internalID: -902218030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 54
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e32fa92d3930d14b8dafa2a89f54d4b
+      internalID: 2013296291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 54
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46af9f8514d27a74fb1280b5ec37fb59
+      internalID: 418477912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 54
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a46a91b4424e4a4f9e6e387137abb25
+      internalID: -967251626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 54
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0010fa99b55024a448df85a125265012
+      internalID: -1407337971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 66
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc9f1513543a5f41b3d81d70e3f0979
+      internalID: 1822076915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 66
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1b13a7a93c9b2489ecad907c56ad13
+      internalID: -1807491352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 52
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8520f00d0a6800a49ba8f721baa20a70
+      internalID: 1593624166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 52
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79cde2db2e65a314ea43fe949c9317bf
+      internalID: -729798378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 52
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f9515a3f944a147ad44c44605c5f6b
+      internalID: -778192612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 52
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cfb1f6aae613d4e94cc136926e3ecf
+      internalID: 390734290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 60
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f95b51730196d4d96f5ee48f90b3fd
+      internalID: 2056937600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 60
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c5b219d73f8ca429fd394a512dbefa
+      internalID: 1952710683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 60
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff300964a23d9cf41b70cbe0bada74ba
+      internalID: 47016591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8027ef8a117c8d49a24adb6d8464d3e
+      internalID: 1190428337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f7e09e46ed63e4bbaa148646990462
+      internalID: -1058129864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe1a4d90a73c974e9c39cea6f693dc8
+      internalID: 2008427367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abdcddf2069d09479aff30698ba8a04
+      internalID: -1250339610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50168f459ae69354a8eb218fc563d5c0
+      internalID: 1184408454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2d40706a9038b4ca738f729a16618b
+      internalID: -2034353951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef24befeba4bdf40b11760f62ea7de2
+      internalID: -667492912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9222f2478bbbdb945b9f6c111a69f106
+      internalID: 151746797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bbbd97167f6d44fa9e516374e1d080
+      internalID: 262852694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22240502db72a094191e2598402b61b3
+      internalID: -610473274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcb4195cf4ab9147b42fa3212392988
+      internalID: 1533472237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doom_pickups_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88655557b3d987347a036e10ec4be0fa
+      internalID: 1578650526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7f88a4071c9b6e74eb51259771222326
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      doom_pickups_spritesheet_0: -1614101877
+      doom_pickups_spritesheet_1: -1280476343
+      doom_pickups_spritesheet_10: 1006826878
+      doom_pickups_spritesheet_11: -1879064053
+      doom_pickups_spritesheet_12: 667377912
+      doom_pickups_spritesheet_13: 712992293
+      doom_pickups_spritesheet_14: -446550085
+      doom_pickups_spritesheet_15: -1604074618
+      doom_pickups_spritesheet_16: -1243009645
+      doom_pickups_spritesheet_17: -139167753
+      doom_pickups_spritesheet_18: 1346958064
+      doom_pickups_spritesheet_19: 1580604218
+      doom_pickups_spritesheet_2: -1201680087
+      doom_pickups_spritesheet_20: -1190954614
+      doom_pickups_spritesheet_21: 686765573
+      doom_pickups_spritesheet_22: -1664617851
+      doom_pickups_spritesheet_23: -198712787
+      doom_pickups_spritesheet_24: -99714671
+      doom_pickups_spritesheet_25: 1368248790
+      doom_pickups_spritesheet_26: -1356065144
+      doom_pickups_spritesheet_27: -1581816191
+      doom_pickups_spritesheet_28: -1919156117
+      doom_pickups_spritesheet_29: -432012560
+      doom_pickups_spritesheet_3: 1469835000
+      doom_pickups_spritesheet_30: -704530581
+      doom_pickups_spritesheet_31: -1151919080
+      doom_pickups_spritesheet_32: -1257423589
+      doom_pickups_spritesheet_33: -1745526595
+      doom_pickups_spritesheet_34: -1867141184
+      doom_pickups_spritesheet_35: -1486102709
+      doom_pickups_spritesheet_36: 350144030
+      doom_pickups_spritesheet_37: 423429713
+      doom_pickups_spritesheet_38: 2146292631
+      doom_pickups_spritesheet_39: 1294638916
+      doom_pickups_spritesheet_4: -321670299
+      doom_pickups_spritesheet_40: -1714653179
+      doom_pickups_spritesheet_41: 2019571468
+      doom_pickups_spritesheet_42: -1167528056
+      doom_pickups_spritesheet_43: -1726415139
+      doom_pickups_spritesheet_44: -232728429
+      doom_pickups_spritesheet_45: -902218030
+      doom_pickups_spritesheet_46: 2013296291
+      doom_pickups_spritesheet_47: 418477912
+      doom_pickups_spritesheet_48: -967251626
+      doom_pickups_spritesheet_49: -1407337971
+      doom_pickups_spritesheet_5: -427648992
+      doom_pickups_spritesheet_50: 1822076915
+      doom_pickups_spritesheet_51: -1807491352
+      doom_pickups_spritesheet_52: 1593624166
+      doom_pickups_spritesheet_53: -729798378
+      doom_pickups_spritesheet_54: -778192612
+      doom_pickups_spritesheet_55: 390734290
+      doom_pickups_spritesheet_56: 2056937600
+      doom_pickups_spritesheet_57: 1952710683
+      doom_pickups_spritesheet_58: 47016591
+      doom_pickups_spritesheet_59: 1190428337
+      doom_pickups_spritesheet_6: 1825144085
+      doom_pickups_spritesheet_60: -1058129864
+      doom_pickups_spritesheet_61: 2008427367
+      doom_pickups_spritesheet_62: -1250339610
+      doom_pickups_spritesheet_63: 1184408454
+      doom_pickups_spritesheet_64: -2034353951
+      doom_pickups_spritesheet_65: -667492912
+      doom_pickups_spritesheet_66: 151746797
+      doom_pickups_spritesheet_67: 262852694
+      doom_pickups_spritesheet_68: -610473274
+      doom_pickups_spritesheet_69: 1533472237
+      doom_pickups_spritesheet_7: 1865972396
+      doom_pickups_spritesheet_70: 1578650526
+      doom_pickups_spritesheet_8: -1100742399
+      doom_pickups_spritesheet_9: 1289569351
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
